@@ -31,7 +31,7 @@
       "price": 899,
       "image": "/uploads/resin-keepsake.jpg",
       "hasMessageInput": true,
-      "isFeatured": true
+      "isFeatured": false
     },
     {
       "id": "5",
