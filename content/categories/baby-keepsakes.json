@@ -5,68 +5,29 @@
       "id": "baby-print-resin",
       "name": "Baby Prints Resin Block",
       "description": "Your baby's tiny handprint and footprint preserved forever in resin with gold flakes.",
-      "longDescription": {
-        "type": "root",
-        "children": [
-          {
-            "type": "p",
-            "children": [
-              {
-                "type": "text",
-                "text": "Capture the tiniest details of your newborn's hands and feet in a stunning resin block embedded with delicate gold flakes. We take your baby's prints and cast them into a crystal-clear keepsake that you'll treasure for a lifetime. A beautiful way to freeze time."
-              }
-            ]
-          }
-        ]
-      },
+      "longDescription": "\\[object Object]\n",
       "price": 1499,
       "image": "/uploads/baby-print-resin.jpg",
-      "hasNameFields": true,
       "hasMessageInput": true,
+      "hasNameFields": true,
       "isFeatured": true
     },
     {
       "id": "baby-curl-keepsake",
       "name": "First Curl Heart Keepsake",
       "description": "Baby's first curl preserved with dried flowers inside a heart-shaped resin piece.",
-      "longDescription": {
-        "type": "root",
-        "children": [
-          {
-            "type": "p",
-            "children": [
-              {
-                "type": "text",
-                "text": "Your baby's precious first curl, delicately preserved alongside tiny dried flowers inside a heart-shaped resin keepsake. This intimate piece holds the essence of those fleeting early days — a gift for parents who want to hold onto every tiny moment."
-              }
-            ]
-          }
-        ]
-      },
+      "longDescription": "\\[object Object]\n",
       "price": 999,
       "image": "/uploads/baby-curl-keepsake.jpg",
-      "hasNameFields": true,
       "hasMessageInput": true,
+      "hasNameFields": true,
       "isFeatured": true
     },
     {
       "id": "floral-sphere-keepsake",
       "name": "Floral Sphere Keepsake",
       "description": "A crystal-clear resin sphere with real preserved flowers — nature captured in art.",
-      "longDescription": {
-        "type": "root",
-        "children": [
-          {
-            "type": "p",
-            "children": [
-              {
-                "type": "text",
-                "text": "Real flowers — daisies, violets, and wildflowers — are carefully arranged and preserved inside a perfectly smooth resin sphere. It catches the light beautifully and makes an enchanting home décor piece or a meaningful gift for someone who loves nature's beauty."
-              }
-            ]
-          }
-        ]
-      },
+      "longDescription": "\\[object Object]\n",
       "price": 899,
       "image": "/uploads/resin-keepsake.jpg",
       "hasMessageInput": true,
@@ -76,43 +37,18 @@
       "id": "5",
       "name": "test",
       "description": "dvdfvrdt",
-      "longDescription": {
-        "type": "root",
-        "children": [
-          {
-            "type": "p",
-            "children": [
-              {
-                "type": "text",
-                "text": ""
-              }
-            ]
-          }
-        ]
-      },
+      "longDescription": "\\[object Object]\n",
       "price": 222,
       "image": "/assets/vintage-letter.jpg",
       "hasMessageInput": true,
-      "hasNameFields": true
+      "hasNameFields": true,
+      "isFeatured": true
     },
     {
       "id": "6",
       "name": "test2",
       "description": "dfbxfxb",
-      "longDescription": {
-        "type": "root",
-        "children": [
-          {
-            "type": "p",
-            "children": [
-              {
-                "type": "text",
-                "text": ""
-              }
-            ]
-          }
-        ]
-      },
+      "longDescription": "\\[object Object]\n",
       "price": 200,
       "image": "/assets/Screenshot 2026-03-29 203807.png",
       "hasMessageInput": true,
