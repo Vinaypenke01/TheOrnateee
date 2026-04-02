@@ -21,7 +21,8 @@
       },
       "price": 699,
       "image": "/uploads/resin-pendant.jpg",
-      "hasMessageInput": true
+      "hasMessageInput": true,
+      "isFeatured": true
     },
     {
       "id": "resin-earrings",

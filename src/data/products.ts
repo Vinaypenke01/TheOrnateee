@@ -8,6 +8,7 @@ export interface Product {
   category: string;
   hasMessageInput?: boolean;
   hasNameFields?: boolean;
+  isFeatured?: boolean;
 }
 
 export const categories = ["All", "Rose Preservation", "Floral Jewellery", "Baby Keepsakes"] as const;

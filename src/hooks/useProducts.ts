@@ -14,9 +14,16 @@ export const useProducts = () => {
           const category = edge?.node;
           if (!category || !category.products) return [];
           return category.products.map((p) => ({
-            ...p,
-            category: category.name,
+            id: p.id || "",
+            name: p.name || "",
+            description: p.description || "",
             longDescription: (p?.longDescription as any)?.children?.[0]?.children?.[0]?.text || "",
+            price: p.price || 0,
+            image: p.image || "",
+            category: category.name,
+            hasMessageInput: !!p.hasMessageInput,
+            hasNameFields: !!p.hasNameFields,
+            isFeatured: !!p.isFeatured,
           }));
         }) || [];
         setProducts(allProducts as Product[]);
@@ -45,9 +52,16 @@ export const useProduct = (id: string) => {
           const category = edge?.node;
           if (!category || !category.products) return [];
           return category.products.map((p) => ({
-            ...p,
-            category: category.name,
+            id: p.id || "",
+            name: p.name || "",
+            description: p.description || "",
             longDescription: (p?.longDescription as any)?.children?.[0]?.children?.[0]?.text || "",
+            price: p.price || 0,
+            image: p.image || "",
+            category: category.name,
+            hasMessageInput: !!p.hasMessageInput,
+            hasNameFields: !!p.hasNameFields,
+            isFeatured: !!p.isFeatured,
           }));
         }) || [];
         

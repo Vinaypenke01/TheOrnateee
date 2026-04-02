@@ -102,6 +102,11 @@ export default defineConfig({
                 name: "hasNameFields",
                 label: "Show Name Fields",
               },
+              {
+                type: "boolean",
+                name: "isFeatured",
+                label: "Feature on Home Page",
+              },
             ],
           },
         ],

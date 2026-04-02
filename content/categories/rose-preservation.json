@@ -21,7 +21,8 @@
       },
       "price": 1299,
       "image": "/uploads/rose-dome.jpg",
-      "hasMessageInput": true
+      "hasMessageInput": true,
+      "isFeatured": true
     },
     {
       "id": "rose-heart-block",
@@ -44,7 +45,8 @@
       "price": 1599,
       "image": "/uploads/rose-heart-block.jpg",
       "hasMessageInput": true,
-      "hasNameFields": true
+      "hasNameFields": true,
+      "isFeatured": true
     },
     {
       "id": "rose-bouquet-resin",
