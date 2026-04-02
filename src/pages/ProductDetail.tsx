@@ -1,18 +1,25 @@
 import { useParams, Link } from "react-router-dom";
 import { useState } from "react";
-import { products } from "@/data/products";
+import { useProduct } from "@/hooks/useProducts";
 import { useCart } from "@/context/CartContext";
 import { ArrowLeft, ShoppingBag, Check } from "lucide-react";
 
 const ProductDetail = () => {
   const { id } = useParams();
-  const product = products.find((p) => p.id === id);
+  const { product, loading } = useProduct(id || "");
   const { addToCart } = useCart();
   const [added, setAdded] = useState(false);
   const [message, setMessage] = useState("");
   const [senderName, setSenderName] = useState("");
   const [receiverName, setReceiverName] = useState("");
-  
+
+  if (loading) {
+    return (
+      <div className="min-h-[60vh] flex items-center justify-center">
+        <p className="font-body text-muted-foreground animate-pulse">Loading product details...</p>
+      </div>
+    );
+  }
 
   if (!product) {
     return (

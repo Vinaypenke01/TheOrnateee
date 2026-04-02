@@ -1,0 +1,73 @@
+{
+  "name": "Rose Preservation",
+  "products": [
+    {
+      "id": "rose-dome",
+      "name": "Rose Dome",
+      "description": "A single preserved rose encased in a crystal-clear resin dome on a walnut base.",
+      "longDescription": {
+        "type": "root",
+        "children": [
+          {
+            "type": "p",
+            "children": [
+              {
+                "type": "text",
+                "text": "A real rose, carefully preserved at the peak of its bloom and encased forever in crystal-clear epoxy resin atop a hand-turned walnut wood base. This enchanting dome captures the beauty of a moment — perfect for anniversaries, proposals, or as a timeless display piece that never wilts."
+              }
+            ]
+          }
+        ]
+      },
+      "price": 1299,
+      "image": "/uploads/rose-dome.jpg",
+      "hasMessageInput": true
+    },
+    {
+      "id": "rose-heart-block",
+      "name": "Rose Heart Block",
+      "description": "Preserved roses arranged in a heart-shaped resin block — love made eternal.",
+      "longDescription": {
+        "type": "root",
+        "children": [
+          {
+            "type": "p",
+            "children": [
+              {
+                "type": "text",
+                "text": "Multiple preserved roses in soft pink hues are delicately arranged inside a heart-shaped resin block. Every petal is frozen in time, creating a breathtaking symbol of love that you can hold in your hands. A stunning anniversary or Valentine's Day gift."
+              }
+            ]
+          }
+        ]
+      },
+      "price": 1599,
+      "image": "/uploads/rose-heart-block.jpg",
+      "hasMessageInput": true,
+      "hasNameFields": true
+    },
+    {
+      "id": "rose-bouquet-resin",
+      "name": "Bouquet Preservation Block",
+      "description": "Your wedding or special bouquet preserved forever in a stunning resin block.",
+      "longDescription": {
+        "type": "root",
+        "children": [
+          {
+            "type": "p",
+            "children": [
+              {
+                "type": "text",
+                "text": "Send us your wedding bouquet, anniversary roses, or any meaningful flowers — and we'll preserve them forever in a large rectangular resin block. Every bloom, every petal, every memory crystallized in time. The ultimate keepsake for life's most meaningful moments."
+              }
+            ]
+          }
+        ]
+      },
+      "price": 2499,
+      "image": "/uploads/rose-bouquet-resin.jpg",
+      "hasMessageInput": true,
+      "hasNameFields": true
+    }
+  ]
+}

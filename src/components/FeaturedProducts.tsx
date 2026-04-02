@@ -1,27 +1,39 @@
-import { products } from "@/data/products";
+import { useProducts } from "@/hooks/useProducts";
 import ProductCard from "./ProductCard";
 import { Link } from "react-router-dom";
 
-const FeaturedProducts = () => (
-  <section className="py-20">
-    <div className="container mx-auto px-4">
-      <p className="font-script text-2xl text-rose-gold text-center mb-2">Crafted with love</p>
-      <h2 className="font-serif text-3xl md:text-4xl text-center text-foreground mb-12">Featured Keepsakes</h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-        {products.slice(0, 6).map((product) => (
-          <ProductCard key={product.id} product={product} />
-        ))}
+const FeaturedProducts = () => {
+  const { products, loading } = useProducts();
+
+  return (
+    <section className="py-20">
+      <div className="container mx-auto px-4">
+        <p className="font-script text-2xl text-rose-gold text-center mb-2">Crafted with love</p>
+        <h2 className="font-serif text-3xl md:text-4xl text-center text-foreground mb-12">Featured Keepsakes</h2>
+        
+        {loading ? (
+          <div className="text-center py-12 animate-pulse">
+            <p className="font-body text-muted-foreground">Loading featured collection...</p>
+          </div>
+        ) : (
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+            {products.slice(0, 6).map((product) => (
+              <ProductCard key={product.id} product={product} />
+            ))}
+          </div>
+        )}
+
+        <div className="text-center mt-12">
+          <Link
+            to="/products"
+            className="inline-block border-2 border-primary text-primary font-body text-sm tracking-widest uppercase px-8 py-3 rounded-full hover:bg-primary hover:text-primary-foreground transition-all duration-300"
+          >
+            View Full Collection
+          </Link>
+        </div>
       </div>
-      <div className="text-center mt-12">
-        <Link
-          to="/products"
-          className="inline-block border-2 border-primary text-primary font-body text-sm tracking-widest uppercase px-8 py-3 rounded-full hover:bg-primary hover:text-primary-foreground transition-all duration-300"
-        >
-          View Full Collection
-        </Link>
-      </div>
-    </div>
-  </section>
-);
+    </section>
+  );
+};
 
 export default FeaturedProducts;

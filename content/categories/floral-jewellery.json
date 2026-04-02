@@ -1,0 +1,71 @@
+{
+  "name": "Floral Jewellery",
+  "products": [
+    {
+      "id": "resin-pendant",
+      "name": "Floral Resin Pendant",
+      "description": "A real pressed flower captured in a gold-framed resin pendant necklace.",
+      "longDescription": {
+        "type": "root",
+        "children": [
+          {
+            "type": "p",
+            "children": [
+              {
+                "type": "text",
+                "text": "Wear nature's beauty close to your heart. A carefully pressed real flower is encased in crystal-clear resin and set in an elegant gold-plated pendant frame with a delicate chain. Each piece is unique — no two flowers are alike, making this a truly one-of-a-kind accessory."
+              }
+            ]
+          }
+        ]
+      },
+      "price": 699,
+      "image": "/uploads/resin-pendant.jpg",
+      "hasMessageInput": true
+    },
+    {
+      "id": "resin-earrings",
+      "name": "Floral Resin Earrings",
+      "description": "Handcrafted earrings with real dried flowers preserved in resin and gold.",
+      "longDescription": {
+        "type": "root",
+        "children": [
+          {
+            "type": "p",
+            "children": [
+              {
+                "type": "text",
+                "text": "A pair of stunning drop earrings featuring real dried wildflowers suspended in crystal-clear resin, framed in elegant gold settings. Lightweight, hypoallergenic, and absolutely mesmerizing — these are conversation starters that carry the beauty of nature wherever you go."
+              }
+            ]
+          }
+        ]
+      },
+      "price": 599,
+      "image": "/uploads/resin-earrings.jpg",
+      "hasMessageInput": true
+    },
+    {
+      "id": "resin-bangle",
+      "name": "Floral Resin Bangle",
+      "description": "A statement bangle with pressed flowers and gold leaf sealed in resin.",
+      "longDescription": {
+        "type": "root",
+        "children": [
+          {
+            "type": "p",
+            "children": [
+              {
+                "type": "text",
+                "text": "This breathtaking bangle bracelet features real pressed pansies and violets intertwined with genuine gold leaf flakes, all preserved in crystal-clear resin. It's a wearable garden — bold, beautiful, and completely unique to you."
+              }
+            ]
+          }
+        ]
+      },
+      "price": 899,
+      "image": "/uploads/resin-bangle.jpg",
+      "hasMessageInput": true
+    }
+  ]
+}

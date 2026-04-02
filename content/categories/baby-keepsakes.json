@@ -1,0 +1,54 @@
+{
+  "name": "Baby Keepsakes",
+  "products": [
+    {
+      "id": "baby-print-resin",
+      "name": "Baby Prints Resin Block",
+      "description": "Your baby's tiny handprint and footprint preserved forever in resin with gold flakes.",
+      "longDescription": "\\[object Object]\n",
+      "price": 1499,
+      "image": "/uploads/baby-print-resin.jpg",
+      "hasMessageInput": true,
+      "hasNameFields": true
+    },
+    {
+      "id": "baby-curl-keepsake",
+      "name": "First Curl Heart Keepsake",
+      "description": "Baby's first curl preserved with dried flowers inside a heart-shaped resin piece.",
+      "longDescription": "\\[object Object]\n",
+      "price": 999,
+      "image": "/uploads/baby-curl-keepsake.jpg",
+      "hasMessageInput": true,
+      "hasNameFields": true
+    },
+    {
+      "id": "floral-sphere-keepsake",
+      "name": "Floral Sphere Keepsake",
+      "description": "A crystal-clear resin sphere with real preserved flowers — nature captured in art.",
+      "longDescription": "\\[object Object]\n",
+      "price": 899,
+      "image": "/uploads/resin-keepsake.jpg",
+      "hasMessageInput": true
+    },
+    {
+      "id": "5",
+      "name": "test",
+      "description": "dvdfvrdt",
+      "longDescription": "",
+      "price": 222,
+      "image": "/assets/vintage-letter.jpg",
+      "hasMessageInput": true,
+      "hasNameFields": true
+    },
+    {
+      "id": "6",
+      "name": "test2",
+      "description": "dfbxfxb",
+      "longDescription": "",
+      "price": 200,
+      "image": "/assets/Screenshot 2026-03-29 203807.png",
+      "hasMessageInput": true,
+      "hasNameFields": true
+    }
+  ]
+}

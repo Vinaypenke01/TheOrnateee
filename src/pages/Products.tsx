@@ -1,11 +1,13 @@
 import { useState, useMemo } from "react";
-import { products, categories } from "@/data/products";
+import { useProducts } from "@/hooks/useProducts";
+import { categories } from "@/data/products";
 import ProductCard from "@/components/ProductCard";
 import { Search } from "lucide-react";
 
 const Products = () => {
   const [search, setSearch] = useState("");
   const [activeCategory, setActiveCategory] = useState<string>("All");
+  const { products, loading } = useProducts();
 
   const filtered = useMemo(() => {
     return products.filter((p) => {
@@ -16,7 +18,15 @@ const Products = () => {
         p.description.toLowerCase().includes(search.toLowerCase());
       return matchesCategory && matchesSearch;
     });
-  }, [search, activeCategory]);
+  }, [search, activeCategory, products]);
+
+  if (loading) {
+    return (
+      <div className="py-24 text-center">
+        <p className="font-body text-muted-foreground animate-pulse">Loading our collection...</p>
+      </div>
+    );
+  }
 
   return (
     <div className="py-12">
