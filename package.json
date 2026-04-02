@@ -4,9 +4,9 @@
   "version": "0.0.1",
   "type": "module",
   "scripts": {
-    "dev": "tinacms dev -c \"vite\"",
-    "build": "tinacms build && vite build",
-    "build:dev": "tinacms build && vite build --mode development",
+    "dev": "NEXT_PUBLIC_TINA_CLIENT_ID=2da18527-ef8b-47a7-a994-f0cf3a22671d TINA_TOKEN=28f0c5ceafeedc35bc6d531742ec389bb36cd002 tinacms dev -c \"vite\"",
+    "build": "NEXT_PUBLIC_TINA_CLIENT_ID=2da18527-ef8b-47a7-a994-f0cf3a22671d TINA_TOKEN=28f0c5ceafeedc35bc6d531742ec389bb36cd002 tinacms build && vite build",
+    "build:dev": "NEXT_PUBLIC_TINA_CLIENT_ID=2da18527-ef8b-47a7-a994-f0cf3a22671d TINA_TOKEN=28f0c5ceafeedc35bc6d531742ec389bb36cd002 tinacms build && vite build --mode development",
     "lint": "eslint .",
     "preview": "vite preview"
   },
