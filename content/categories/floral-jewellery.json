@@ -7,9 +7,9 @@
       "description": "A real pressed flower captured in a gold-framed resin pendant necklace.",
       "longDescription": "\\[object Object]\n",
       "price": 699,
-      "image": "/uploads/resin-pendant.jpg",
+      "image": "/assets/rose-dome.jpg",
       "hasMessageInput": true,
-      "isFeatured": false
+      "isFeatured": true
     },
     {
       "id": "resin-earrings",
